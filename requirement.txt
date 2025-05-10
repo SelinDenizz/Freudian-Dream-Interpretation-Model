@@ -1,0 +1,12 @@
+pandas
+numpy
+torch
+transformers
+scikit-learn
+spacy
+matplotlib
+seaborn
+wordcloud
+networkx
+tqdm
+pillow
