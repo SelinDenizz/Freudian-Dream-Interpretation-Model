@@ -9,24 +9,8 @@ import warnings
 
 from script.dream_bank_normalizer import DreamNormalizer
 
-
-
-
-
-
-
-
 def process_tsv_dream_file(file_path: str, output_dir: str = "processed_data") -> Optional[pd.DataFrame]:
-    """
-    Process a single TSV dream file using the DreamNormalizer.
-    
-    Args:
-        file_path: Path to the TSV file to process
-        output_dir: Directory to store the processed output
-    
-    Returns:
-        DataFrame with normalized dream data or None if processing failed
-    """
+
     try:
         # Extract dreamer ID from filename
         dreamer_id = os.path.basename(file_path).split('.')[0]
@@ -56,10 +40,7 @@ def process_tsv_dream_file(file_path: str, output_dir: str = "processed_data") -
 
 
 def main():
-    """
-    Main function to process all TSV files in the data directory.
-    """
-    # Define paths
+
     script_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.dirname(script_dir)
     data_dir = os.path.join(parent_dir, "data")
