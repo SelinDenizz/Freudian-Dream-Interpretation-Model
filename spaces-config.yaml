@@ -1,0 +1,10 @@
+sdk:
+  image: model-engine
+base_model: meta-llama/Llama-2-7b-chat-hf
+license: mit
+tags:
+  - freudian-analysis
+  - dream-interpretation
+  - psychology
+  - nlp
+  - llm
