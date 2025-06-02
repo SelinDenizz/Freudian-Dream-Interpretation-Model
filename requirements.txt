@@ -1,13 +1,14 @@
 # Core dependencies
-torch>=2.0.0
-transformers>=4.35.0
-peft>=0.5.0
 unsloth>=0.3.0
 bitsandbytes>=0.41.0
-accelerate>=0.23.0
+torch>=2.0.0
+transformers>=4.35.0
+peft>=0.6.0
+accelerate>=0.24.0
+spaces>=0.18.0
 
 # UI and interface dependencies
-gradio>=3.50.0
+gradio==4.40.0
 matplotlib>=3.7.0
 
 # Data processing dependencies
